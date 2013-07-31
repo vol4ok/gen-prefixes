@@ -1,0 +1,1621 @@
+@mixin align-content($arguments...) {
+  -webkit-align-content: $arguments;
+  align-content: $arguments;
+}
+
+@mixin align-items($arguments...) {
+  -webkit-align-items: $arguments;
+  align-items: $arguments;
+}
+
+@mixin align-self($arguments...) {
+  -webkit-align-self: $arguments;
+  align-self: $arguments;
+}
+
+@mixin animation($arguments...) {
+  -webkit-animation: $arguments;
+  animation: $arguments;
+}
+
+@mixin animation-delay($arguments...) {
+  -webkit-animation-delay: $arguments;
+  animation-delay: $arguments;
+}
+
+@mixin animation-direction($arguments...) {
+  -webkit-animation-direction: $arguments;
+  animation-direction: $arguments;
+}
+
+@mixin animation-duration($arguments...) {
+  -webkit-animation-duration: $arguments;
+  animation-duration: $arguments;
+}
+
+@mixin animation-fill-mode($arguments...) {
+  -webkit-animation-fill-mode: $arguments;
+  animation-fill-mode: $arguments;
+}
+
+@mixin animation-iteration-count($arguments...) {
+  -webkit-animation-iteration-count: $arguments;
+  animation-iteration-count: $arguments;
+}
+
+@mixin animation-name($arguments...) {
+  -webkit-animation-name: $arguments;
+  animation-name: $arguments;
+}
+
+@mixin animation-play-state($arguments...) {
+  -webkit-animation-play-state: $arguments;
+  animation-play-state: $arguments;
+}
+
+@mixin animation-timing-function($arguments...) {
+  -webkit-animation-timing-function: $arguments;
+  animation-timing-function: $arguments;
+}
+
+@mixin app-region($arguments...) {
+  -webkit-app-region: $arguments;
+  app-region: $arguments;
+}
+
+@mixin appearance($arguments...) {
+  -webkit-appearance: $arguments;
+  -moz-appearance: $arguments;
+  appearance: $arguments;
+}
+
+@mixin aspect-ratio($arguments...) {
+  -webkit-aspect-ratio: $arguments;
+  aspect-ratio: $arguments;
+}
+
+@mixin backface-visibility($arguments...) {
+  -webkit-backface-visibility: $arguments;
+  backface-visibility: $arguments;
+}
+
+@mixin background-blend-mode($arguments...) {
+  -webkit-background-blend-mode: $arguments;
+  background-blend-mode: $arguments;
+}
+
+@mixin background-clip($arguments...) {
+  -webkit-background-clip: $arguments;
+  background-clip: $arguments;
+}
+
+@mixin background-composite($arguments...) {
+  -webkit-background-composite: $arguments;
+  background-composite: $arguments;
+}
+
+@mixin background-origin($arguments...) {
+  -webkit-background-origin: $arguments;
+  background-origin: $arguments;
+}
+
+@mixin background-size($arguments...) {
+  -webkit-background-size: $arguments;
+  background-size: $arguments;
+}
+
+@mixin blend-mode($arguments...) {
+  -webkit-blend-mode: $arguments;
+  blend-mode: $arguments;
+}
+
+@mixin border-after($arguments...) {
+  -webkit-border-after: $arguments;
+  border-after: $arguments;
+}
+
+@mixin border-after-color($arguments...) {
+  -webkit-border-after-color: $arguments;
+  border-after-color: $arguments;
+}
+
+@mixin border-after-style($arguments...) {
+  -webkit-border-after-style: $arguments;
+  border-after-style: $arguments;
+}
+
+@mixin border-after-width($arguments...) {
+  -webkit-border-after-width: $arguments;
+  border-after-width: $arguments;
+}
+
+@mixin border-before($arguments...) {
+  -webkit-border-before: $arguments;
+  border-before: $arguments;
+}
+
+@mixin border-before-color($arguments...) {
+  -webkit-border-before-color: $arguments;
+  border-before-color: $arguments;
+}
+
+@mixin border-before-style($arguments...) {
+  -webkit-border-before-style: $arguments;
+  border-before-style: $arguments;
+}
+
+@mixin border-before-width($arguments...) {
+  -webkit-border-before-width: $arguments;
+  border-before-width: $arguments;
+}
+
+@mixin border-bottom-left-radius($arguments...) {
+  -webkit-border-bottom-left-radius: $arguments;
+  border-bottom-left-radius: $arguments;
+}
+
+@mixin border-bottom-right-radius($arguments...) {
+  -webkit-border-bottom-right-radius: $arguments;
+  border-bottom-right-radius: $arguments;
+}
+
+@mixin border-end($arguments...) {
+  -webkit-border-end: $arguments;
+  -moz-border-end: $arguments;
+  border-end: $arguments;
+}
+
+@mixin border-end-color($arguments...) {
+  -webkit-border-end-color: $arguments;
+  -moz-border-end-color: $arguments;
+  border-end-color: $arguments;
+}
+
+@mixin border-end-style($arguments...) {
+  -webkit-border-end-style: $arguments;
+  -moz-border-end-style: $arguments;
+  border-end-style: $arguments;
+}
+
+@mixin border-end-width($arguments...) {
+  -webkit-border-end-width: $arguments;
+  -moz-border-end-width: $arguments;
+  border-end-width: $arguments;
+}
+
+@mixin border-fit($arguments...) {
+  -webkit-border-fit: $arguments;
+  border-fit: $arguments;
+}
+
+@mixin border-horizontal-spacing($arguments...) {
+  -webkit-border-horizontal-spacing: $arguments;
+  border-horizontal-spacing: $arguments;
+}
+
+@mixin border-image($arguments...) {
+  -webkit-border-image: $arguments;
+  -o-border-image: $arguments;
+  border-image: $arguments;
+}
+
+@mixin border-radius($arguments...) {
+  -webkit-border-radius: $arguments;
+  border-radius: $arguments;
+}
+
+@mixin border-start($arguments...) {
+  -webkit-border-start: $arguments;
+  -moz-border-start: $arguments;
+  border-start: $arguments;
+}
+
+@mixin border-start-color($arguments...) {
+  -webkit-border-start-color: $arguments;
+  -moz-border-start-color: $arguments;
+  border-start-color: $arguments;
+}
+
+@mixin border-start-style($arguments...) {
+  -webkit-border-start-style: $arguments;
+  -moz-border-start-style: $arguments;
+  border-start-style: $arguments;
+}
+
+@mixin border-start-width($arguments...) {
+  -webkit-border-start-width: $arguments;
+  -moz-border-start-width: $arguments;
+  border-start-width: $arguments;
+}
+
+@mixin border-top-left-radius($arguments...) {
+  -webkit-border-top-left-radius: $arguments;
+  border-top-left-radius: $arguments;
+}
+
+@mixin border-top-right-radius($arguments...) {
+  -webkit-border-top-right-radius: $arguments;
+  border-top-right-radius: $arguments;
+}
+
+@mixin border-vertical-spacing($arguments...) {
+  -webkit-border-vertical-spacing: $arguments;
+  border-vertical-spacing: $arguments;
+}
+
+@mixin box-align($arguments...) {
+  -webkit-box-align: $arguments;
+  -moz-box-align: $arguments;
+  box-align: $arguments;
+}
+
+@mixin box-decoration-break($arguments...) {
+  -webkit-box-decoration-break: $arguments;
+  box-decoration-break: $arguments;
+}
+
+@mixin box-direction($arguments...) {
+  -webkit-box-direction: $arguments;
+  -moz-box-direction: $arguments;
+  box-direction: $arguments;
+}
+
+@mixin box-flex($arguments...) {
+  -webkit-box-flex: $arguments;
+  -moz-box-flex: $arguments;
+  box-flex: $arguments;
+}
+
+@mixin box-flex-group($arguments...) {
+  -webkit-box-flex-group: $arguments;
+  box-flex-group: $arguments;
+}
+
+@mixin box-lines($arguments...) {
+  -webkit-box-lines: $arguments;
+  box-lines: $arguments;
+}
+
+@mixin box-ordinal-group($arguments...) {
+  -webkit-box-ordinal-group: $arguments;
+  -moz-box-ordinal-group: $arguments;
+  box-ordinal-group: $arguments;
+}
+
+@mixin box-orient($arguments...) {
+  -webkit-box-orient: $arguments;
+  -moz-box-orient: $arguments;
+  box-orient: $arguments;
+}
+
+@mixin box-pack($arguments...) {
+  -webkit-box-pack: $arguments;
+  -moz-box-pack: $arguments;
+  box-pack: $arguments;
+}
+
+@mixin box-reflect($arguments...) {
+  -webkit-box-reflect: $arguments;
+  box-reflect: $arguments;
+}
+
+@mixin box-shadow($arguments...) {
+  -webkit-box-shadow: $arguments;
+  box-shadow: $arguments;
+}
+
+@mixin box-sizing($arguments...) {
+  -webkit-box-sizing: $arguments;
+  -moz-box-sizing: $arguments;
+  box-sizing: $arguments;
+}
+
+@mixin clip-path($arguments...) {
+  -webkit-clip-path: $arguments;
+  clip-path: $arguments;
+}
+
+@mixin color-correction($arguments...) {
+  -webkit-color-correction: $arguments;
+  color-correction: $arguments;
+}
+
+@mixin column-axis($arguments...) {
+  -webkit-column-axis: $arguments;
+  column-axis: $arguments;
+}
+
+@mixin column-break-after($arguments...) {
+  -webkit-column-break-after: $arguments;
+  column-break-after: $arguments;
+}
+
+@mixin column-break-before($arguments...) {
+  -webkit-column-break-before: $arguments;
+  column-break-before: $arguments;
+}
+
+@mixin column-break-inside($arguments...) {
+  -webkit-column-break-inside: $arguments;
+  column-break-inside: $arguments;
+}
+
+@mixin column-count($arguments...) {
+  -webkit-column-count: $arguments;
+  -moz-column-count: $arguments;
+  column-count: $arguments;
+}
+
+@mixin column-gap($arguments...) {
+  -webkit-column-gap: $arguments;
+  -moz-column-gap: $arguments;
+  column-gap: $arguments;
+}
+
+@mixin column-progression($arguments...) {
+  -webkit-column-progression: $arguments;
+  column-progression: $arguments;
+}
+
+@mixin column-rule($arguments...) {
+  -webkit-column-rule: $arguments;
+  -moz-column-rule: $arguments;
+  column-rule: $arguments;
+}
+
+@mixin column-rule-color($arguments...) {
+  -webkit-column-rule-color: $arguments;
+  -moz-column-rule-color: $arguments;
+  column-rule-color: $arguments;
+}
+
+@mixin column-rule-style($arguments...) {
+  -webkit-column-rule-style: $arguments;
+  -moz-column-rule-style: $arguments;
+  column-rule-style: $arguments;
+}
+
+@mixin column-rule-width($arguments...) {
+  -webkit-column-rule-width: $arguments;
+  -moz-column-rule-width: $arguments;
+  column-rule-width: $arguments;
+}
+
+@mixin column-span($arguments...) {
+  -webkit-column-span: $arguments;
+  column-span: $arguments;
+}
+
+@mixin column-width($arguments...) {
+  -webkit-column-width: $arguments;
+  -moz-column-width: $arguments;
+  column-width: $arguments;
+}
+
+@mixin columns($arguments...) {
+  -webkit-columns: $arguments;
+  -moz-columns: $arguments;
+  columns: $arguments;
+}
+
+@mixin cursor-visibility($arguments...) {
+  -webkit-cursor-visibility: $arguments;
+  cursor-visibility: $arguments;
+}
+
+@mixin dashboard-region($arguments...) {
+  -webkit-dashboard-region: $arguments;
+  dashboard-region: $arguments;
+}
+
+@mixin filter($arguments...) {
+  -webkit-filter: $arguments;
+  -ms-filter: $arguments;
+  filter: $arguments;
+}
+
+@mixin flex($arguments...) {
+  -webkit-flex: $arguments;
+  -ms-flex: $arguments;
+  flex: $arguments;
+}
+
+@mixin flex-basis($arguments...) {
+  -webkit-flex-basis: $arguments;
+  flex-basis: $arguments;
+}
+
+@mixin flex-direction($arguments...) {
+  -webkit-flex-direction: $arguments;
+  -ms-flex-direction: $arguments;
+  flex-direction: $arguments;
+}
+
+@mixin flex-flow($arguments...) {
+  -webkit-flex-flow: $arguments;
+  flex-flow: $arguments;
+}
+
+@mixin flex-grow($arguments...) {
+  -webkit-flex-grow: $arguments;
+  flex-grow: $arguments;
+}
+
+@mixin flex-shrink($arguments...) {
+  -webkit-flex-shrink: $arguments;
+  flex-shrink: $arguments;
+}
+
+@mixin flex-wrap($arguments...) {
+  -webkit-flex-wrap: $arguments;
+  -ms-flex-wrap: $arguments;
+  flex-wrap: $arguments;
+}
+
+@mixin flow-from($arguments...) {
+  -webkit-flow-from: $arguments;
+  -ms-flow-from: $arguments;
+  flow-from: $arguments;
+}
+
+@mixin flow-into($arguments...) {
+  -webkit-flow-into: $arguments;
+  -ms-flow-into: $arguments;
+  flow-into: $arguments;
+}
+
+@mixin font-feature-settings($arguments...) {
+  -webkit-font-feature-settings: $arguments;
+  -moz-font-feature-settings: $arguments;
+  font-feature-settings: $arguments;
+}
+
+@mixin font-kerning($arguments...) {
+  -webkit-font-kerning: $arguments;
+  font-kerning: $arguments;
+}
+
+@mixin font-size-delta($arguments...) {
+  -webkit-font-size-delta: $arguments;
+  font-size-delta: $arguments;
+}
+
+@mixin font-smoothing($arguments...) {
+  -webkit-font-smoothing: $arguments;
+  font-smoothing: $arguments;
+}
+
+@mixin font-variant-ligatures($arguments...) {
+  -webkit-font-variant-ligatures: $arguments;
+  font-variant-ligatures: $arguments;
+}
+
+@mixin grid-after($arguments...) {
+  -webkit-grid-after: $arguments;
+  grid-after: $arguments;
+}
+
+@mixin grid-auto-columns($arguments...) {
+  -webkit-grid-auto-columns: $arguments;
+  grid-auto-columns: $arguments;
+}
+
+@mixin grid-auto-flow($arguments...) {
+  -webkit-grid-auto-flow: $arguments;
+  grid-auto-flow: $arguments;
+}
+
+@mixin grid-auto-rows($arguments...) {
+  -webkit-grid-auto-rows: $arguments;
+  grid-auto-rows: $arguments;
+}
+
+@mixin grid-before($arguments...) {
+  -webkit-grid-before: $arguments;
+  grid-before: $arguments;
+}
+
+@mixin grid-column($arguments...) {
+  -webkit-grid-column: $arguments;
+  -ms-grid-column: $arguments;
+  grid-column: $arguments;
+}
+
+@mixin grid-definition-columns($arguments...) {
+  -webkit-grid-definition-columns: $arguments;
+  grid-definition-columns: $arguments;
+}
+
+@mixin grid-definition-rows($arguments...) {
+  -webkit-grid-definition-rows: $arguments;
+  grid-definition-rows: $arguments;
+}
+
+@mixin grid-end($arguments...) {
+  -webkit-grid-end: $arguments;
+  grid-end: $arguments;
+}
+
+@mixin grid-row($arguments...) {
+  -webkit-grid-row: $arguments;
+  -ms-grid-row: $arguments;
+  grid-row: $arguments;
+}
+
+@mixin grid-start($arguments...) {
+  -webkit-grid-start: $arguments;
+  grid-start: $arguments;
+}
+
+@mixin highlight($arguments...) {
+  -webkit-highlight: $arguments;
+  highlight: $arguments;
+}
+
+@mixin hyphenate-character($arguments...) {
+  -webkit-hyphenate-character: $arguments;
+  hyphenate-character: $arguments;
+}
+
+@mixin hyphenate-limit-after($arguments...) {
+  -webkit-hyphenate-limit-after: $arguments;
+  hyphenate-limit-after: $arguments;
+}
+
+@mixin hyphenate-limit-before($arguments...) {
+  -webkit-hyphenate-limit-before: $arguments;
+  hyphenate-limit-before: $arguments;
+}
+
+@mixin hyphenate-limit-lines($arguments...) {
+  -webkit-hyphenate-limit-lines: $arguments;
+  -ms-hyphenate-limit-lines: $arguments;
+  hyphenate-limit-lines: $arguments;
+}
+
+@mixin justify-content($arguments...) {
+  -webkit-justify-content: $arguments;
+  justify-content: $arguments;
+}
+
+@mixin line-align($arguments...) {
+  -webkit-line-align: $arguments;
+  line-align: $arguments;
+}
+
+@mixin line-box-contain($arguments...) {
+  -webkit-line-box-contain: $arguments;
+  line-box-contain: $arguments;
+}
+
+@mixin line-break($arguments...) {
+  -webkit-line-break: $arguments;
+  line-break: $arguments;
+}
+
+@mixin line-clamp($arguments...) {
+  -webkit-line-clamp: $arguments;
+  line-clamp: $arguments;
+}
+
+@mixin line-grid($arguments...) {
+  -webkit-line-grid: $arguments;
+  line-grid: $arguments;
+}
+
+@mixin line-snap($arguments...) {
+  -webkit-line-snap: $arguments;
+  line-snap: $arguments;
+}
+
+@mixin locale($arguments...) {
+  -webkit-locale: $arguments;
+  locale: $arguments;
+}
+
+@mixin logical-height($arguments...) {
+  -webkit-logical-height: $arguments;
+  logical-height: $arguments;
+}
+
+@mixin logical-width($arguments...) {
+  -webkit-logical-width: $arguments;
+  logical-width: $arguments;
+}
+
+@mixin margin-after($arguments...) {
+  -webkit-margin-after: $arguments;
+  margin-after: $arguments;
+}
+
+@mixin margin-after-collapse($arguments...) {
+  -webkit-margin-after-collapse: $arguments;
+  margin-after-collapse: $arguments;
+}
+
+@mixin margin-before($arguments...) {
+  -webkit-margin-before: $arguments;
+  margin-before: $arguments;
+}
+
+@mixin margin-before-collapse($arguments...) {
+  -webkit-margin-before-collapse: $arguments;
+  margin-before-collapse: $arguments;
+}
+
+@mixin margin-bottom-collapse($arguments...) {
+  -webkit-margin-bottom-collapse: $arguments;
+  margin-bottom-collapse: $arguments;
+}
+
+@mixin margin-collapse($arguments...) {
+  -webkit-margin-collapse: $arguments;
+  margin-collapse: $arguments;
+}
+
+@mixin margin-end($arguments...) {
+  -webkit-margin-end: $arguments;
+  -moz-margin-end: $arguments;
+  margin-end: $arguments;
+}
+
+@mixin margin-start($arguments...) {
+  -webkit-margin-start: $arguments;
+  -moz-margin-start: $arguments;
+  margin-start: $arguments;
+}
+
+@mixin margin-top-collapse($arguments...) {
+  -webkit-margin-top-collapse: $arguments;
+  margin-top-collapse: $arguments;
+}
+
+@mixin marquee($arguments...) {
+  -webkit-marquee: $arguments;
+  marquee: $arguments;
+}
+
+@mixin marquee-direction($arguments...) {
+  -webkit-marquee-direction: $arguments;
+  marquee-direction: $arguments;
+}
+
+@mixin marquee-increment($arguments...) {
+  -webkit-marquee-increment: $arguments;
+  marquee-increment: $arguments;
+}
+
+@mixin marquee-repetition($arguments...) {
+  -webkit-marquee-repetition: $arguments;
+  marquee-repetition: $arguments;
+}
+
+@mixin marquee-speed($arguments...) {
+  -webkit-marquee-speed: $arguments;
+  marquee-speed: $arguments;
+}
+
+@mixin marquee-style($arguments...) {
+  -webkit-marquee-style: $arguments;
+  marquee-style: $arguments;
+}
+
+@mixin mask($arguments...) {
+  -webkit-mask: $arguments;
+  mask: $arguments;
+}
+
+@mixin mask-box-image($arguments...) {
+  -webkit-mask-box-image: $arguments;
+  mask-box-image: $arguments;
+}
+
+@mixin mask-box-image-outset($arguments...) {
+  -webkit-mask-box-image-outset: $arguments;
+  mask-box-image-outset: $arguments;
+}
+
+@mixin mask-box-image-repeat($arguments...) {
+  -webkit-mask-box-image-repeat: $arguments;
+  mask-box-image-repeat: $arguments;
+}
+
+@mixin mask-box-image-slice($arguments...) {
+  -webkit-mask-box-image-slice: $arguments;
+  mask-box-image-slice: $arguments;
+}
+
+@mixin mask-box-image-source($arguments...) {
+  -webkit-mask-box-image-source: $arguments;
+  mask-box-image-source: $arguments;
+}
+
+@mixin mask-box-image-width($arguments...) {
+  -webkit-mask-box-image-width: $arguments;
+  mask-box-image-width: $arguments;
+}
+
+@mixin mask-clip($arguments...) {
+  -webkit-mask-clip: $arguments;
+  mask-clip: $arguments;
+}
+
+@mixin mask-composite($arguments...) {
+  -webkit-mask-composite: $arguments;
+  mask-composite: $arguments;
+}
+
+@mixin mask-image($arguments...) {
+  -webkit-mask-image: $arguments;
+  mask-image: $arguments;
+}
+
+@mixin mask-origin($arguments...) {
+  -webkit-mask-origin: $arguments;
+  mask-origin: $arguments;
+}
+
+@mixin mask-position($arguments...) {
+  -webkit-mask-position: $arguments;
+  mask-position: $arguments;
+}
+
+@mixin mask-position-x($arguments...) {
+  -webkit-mask-position-x: $arguments;
+  mask-position-x: $arguments;
+}
+
+@mixin mask-position-y($arguments...) {
+  -webkit-mask-position-y: $arguments;
+  mask-position-y: $arguments;
+}
+
+@mixin mask-repeat($arguments...) {
+  -webkit-mask-repeat: $arguments;
+  mask-repeat: $arguments;
+}
+
+@mixin mask-repeat-x($arguments...) {
+  -webkit-mask-repeat-x: $arguments;
+  mask-repeat-x: $arguments;
+}
+
+@mixin mask-repeat-y($arguments...) {
+  -webkit-mask-repeat-y: $arguments;
+  mask-repeat-y: $arguments;
+}
+
+@mixin mask-size($arguments...) {
+  -webkit-mask-size: $arguments;
+  mask-size: $arguments;
+}
+
+@mixin max-logical-height($arguments...) {
+  -webkit-max-logical-height: $arguments;
+  max-logical-height: $arguments;
+}
+
+@mixin max-logical-width($arguments...) {
+  -webkit-max-logical-width: $arguments;
+  max-logical-width: $arguments;
+}
+
+@mixin min-logical-height($arguments...) {
+  -webkit-min-logical-height: $arguments;
+  min-logical-height: $arguments;
+}
+
+@mixin min-logical-width($arguments...) {
+  -webkit-min-logical-width: $arguments;
+  min-logical-width: $arguments;
+}
+
+@mixin nbsp-mode($arguments...) {
+  -webkit-nbsp-mode: $arguments;
+  nbsp-mode: $arguments;
+}
+
+@mixin opacity($arguments...) {
+  -webkit-opacity: $arguments;
+  opacity: $arguments;
+}
+
+@mixin order($arguments...) {
+  -webkit-order: $arguments;
+  order: $arguments;
+}
+
+@mixin overflow-scrolling($arguments...) {
+  -webkit-overflow-scrolling: $arguments;
+  overflow-scrolling: $arguments;
+}
+
+@mixin padding-after($arguments...) {
+  -webkit-padding-after: $arguments;
+  padding-after: $arguments;
+}
+
+@mixin padding-before($arguments...) {
+  -webkit-padding-before: $arguments;
+  padding-before: $arguments;
+}
+
+@mixin padding-end($arguments...) {
+  -webkit-padding-end: $arguments;
+  -moz-padding-end: $arguments;
+  padding-end: $arguments;
+}
+
+@mixin padding-start($arguments...) {
+  -webkit-padding-start: $arguments;
+  -moz-padding-start: $arguments;
+  padding-start: $arguments;
+}
+
+@mixin perspective($arguments...) {
+  -webkit-perspective: $arguments;
+  perspective: $arguments;
+}
+
+@mixin perspective-origin($arguments...) {
+  -webkit-perspective-origin: $arguments;
+  perspective-origin: $arguments;
+}
+
+@mixin perspective-origin-x($arguments...) {
+  -webkit-perspective-origin-x: $arguments;
+  perspective-origin-x: $arguments;
+}
+
+@mixin perspective-origin-y($arguments...) {
+  -webkit-perspective-origin-y: $arguments;
+  perspective-origin-y: $arguments;
+}
+
+@mixin print-color-adjust($arguments...) {
+  -webkit-print-color-adjust: $arguments;
+  print-color-adjust: $arguments;
+}
+
+@mixin region-break-after($arguments...) {
+  -webkit-region-break-after: $arguments;
+  region-break-after: $arguments;
+}
+
+@mixin region-break-before($arguments...) {
+  -webkit-region-break-before: $arguments;
+  region-break-before: $arguments;
+}
+
+@mixin region-break-inside($arguments...) {
+  -webkit-region-break-inside: $arguments;
+  region-break-inside: $arguments;
+}
+
+@mixin region-fragment($arguments...) {
+  -webkit-region-fragment: $arguments;
+  region-fragment: $arguments;
+}
+
+@mixin rtl-ordering($arguments...) {
+  -webkit-rtl-ordering: $arguments;
+  rtl-ordering: $arguments;
+}
+
+@mixin ruby-position($arguments...) {
+  -webkit-ruby-position: $arguments;
+  ruby-position: $arguments;
+}
+
+@mixin shape-inside($arguments...) {
+  -webkit-shape-inside: $arguments;
+  shape-inside: $arguments;
+}
+
+@mixin shape-margin($arguments...) {
+  -webkit-shape-margin: $arguments;
+  shape-margin: $arguments;
+}
+
+@mixin shape-outside($arguments...) {
+  -webkit-shape-outside: $arguments;
+  shape-outside: $arguments;
+}
+
+@mixin shape-padding($arguments...) {
+  -webkit-shape-padding: $arguments;
+  shape-padding: $arguments;
+}
+
+@mixin svg-shadow($arguments...) {
+  -webkit-svg-shadow: $arguments;
+  svg-shadow: $arguments;
+}
+
+@mixin tap-highlight-color($arguments...) {
+  -webkit-tap-highlight-color: $arguments;
+  tap-highlight-color: $arguments;
+}
+
+@mixin text-align-last($arguments...) {
+  -webkit-text-align-last: $arguments;
+  -moz-text-align-last: $arguments;
+  -ms-text-align-last: $arguments;
+  text-align-last: $arguments;
+}
+
+@mixin text-decoration-color($arguments...) {
+  -webkit-text-decoration-color: $arguments;
+  -moz-text-decoration-color: $arguments;
+  text-decoration-color: $arguments;
+}
+
+@mixin text-decoration-line($arguments...) {
+  -webkit-text-decoration-line: $arguments;
+  -moz-text-decoration-line: $arguments;
+  text-decoration-line: $arguments;
+}
+
+@mixin text-decoration-style($arguments...) {
+  -webkit-text-decoration-style: $arguments;
+  -moz-text-decoration-style: $arguments;
+  text-decoration-style: $arguments;
+}
+
+@mixin text-decorations-in-effect($arguments...) {
+  -webkit-text-decorations-in-effect: $arguments;
+  text-decorations-in-effect: $arguments;
+}
+
+@mixin text-emphasis-position($arguments...) {
+  -webkit-text-emphasis-position: $arguments;
+  text-emphasis-position: $arguments;
+}
+
+@mixin text-fill-color($arguments...) {
+  -webkit-text-fill-color: $arguments;
+  text-fill-color: $arguments;
+}
+
+@mixin text-justify($arguments...) {
+  -webkit-text-justify: $arguments;
+  -ms-text-justify: $arguments;
+  text-justify: $arguments;
+}
+
+@mixin text-security($arguments...) {
+  -webkit-text-security: $arguments;
+  text-security: $arguments;
+}
+
+@mixin text-stroke($arguments...) {
+  -webkit-text-stroke: $arguments;
+  text-stroke: $arguments;
+}
+
+@mixin text-stroke-color($arguments...) {
+  -webkit-text-stroke-color: $arguments;
+  text-stroke-color: $arguments;
+}
+
+@mixin text-stroke-width($arguments...) {
+  -webkit-text-stroke-width: $arguments;
+  text-stroke-width: $arguments;
+}
+
+@mixin text-underline-position($arguments...) {
+  -webkit-text-underline-position: $arguments;
+  -ms-text-underline-position: $arguments;
+  text-underline-position: $arguments;
+}
+
+@mixin touch-callout($arguments...) {
+  -webkit-touch-callout: $arguments;
+  touch-callout: $arguments;
+}
+
+@mixin transform($arguments...) {
+  -webkit-transform: $arguments;
+  -o-transform: $arguments;
+  -moz-transform: $arguments;
+  transform: $arguments;
+}
+
+@mixin transform-origin($arguments...) {
+  -webkit-transform-origin: $arguments;
+  -o-transform-origin: $arguments;
+  transform-origin: $arguments;
+}
+
+@mixin transform-origin-x($arguments...) {
+  -webkit-transform-origin-x: $arguments;
+  transform-origin-x: $arguments;
+}
+
+@mixin transform-origin-y($arguments...) {
+  -webkit-transform-origin-y: $arguments;
+  transform-origin-y: $arguments;
+}
+
+@mixin transform-origin-z($arguments...) {
+  -webkit-transform-origin-z: $arguments;
+  transform-origin-z: $arguments;
+}
+
+@mixin transform-style($arguments...) {
+  -webkit-transform-style: $arguments;
+  transform-style: $arguments;
+}
+
+@mixin transition($arguments...) {
+  -webkit-transition: $arguments;
+  -o-transition: $arguments;
+  transition: $arguments;
+}
+
+@mixin transition-delay($arguments...) {
+  -webkit-transition-delay: $arguments;
+  -o-transition-delay: $arguments;
+  transition-delay: $arguments;
+}
+
+@mixin transition-duration($arguments...) {
+  -webkit-transition-duration: $arguments;
+  -o-transition-duration: $arguments;
+  transition-duration: $arguments;
+}
+
+@mixin transition-property($arguments...) {
+  -webkit-transition-property: $arguments;
+  -o-transition-property: $arguments;
+  transition-property: $arguments;
+}
+
+@mixin transition-timing-function($arguments...) {
+  -webkit-transition-timing-function: $arguments;
+  -o-transition-timing-function: $arguments;
+  transition-timing-function: $arguments;
+}
+
+@mixin user-drag($arguments...) {
+  -webkit-user-drag: $arguments;
+  user-drag: $arguments;
+}
+
+@mixin user-modify($arguments...) {
+  -webkit-user-modify: $arguments;
+  -moz-user-modify: $arguments;
+  user-modify: $arguments;
+}
+
+@mixin user-select($arguments...) {
+  -webkit-user-select: $arguments;
+  -moz-user-select: $arguments;
+  -ms-user-select: $arguments;
+  user-select: $arguments;
+}
+
+@mixin wrap-flow($arguments...) {
+  -webkit-wrap-flow: $arguments;
+  -ms-wrap-flow: $arguments;
+  wrap-flow: $arguments;
+}
+
+@mixin wrap-through($arguments...) {
+  -webkit-wrap-through: $arguments;
+  -ms-wrap-through: $arguments;
+  wrap-through: $arguments;
+}
+
+@mixin device-pixel-ratio($arguments...) {
+  -o-device-pixel-ratio: $arguments;
+  device-pixel-ratio: $arguments;
+}
+
+@mixin focus-opacity($arguments...) {
+  -o-focus-opacity: $arguments;
+  focus-opacity: $arguments;
+}
+
+@mixin link($arguments...) {
+  -o-link: $arguments;
+  link: $arguments;
+}
+
+@mixin link-source($arguments...) {
+  -o-link-source: $arguments;
+  link-source: $arguments;
+}
+
+@mixin mini-fold($arguments...) {
+  -o-mini-fold: $arguments;
+  mini-fold: $arguments;
+}
+
+@mixin object-fit($arguments...) {
+  -o-object-fit: $arguments;
+  object-fit: $arguments;
+}
+
+@mixin object-position($arguments...) {
+  -o-object-position: $arguments;
+  object-position: $arguments;
+}
+
+@mixin tab-size($arguments...) {
+  -o-tab-size: $arguments;
+  -moz-tab-size: $arguments;
+  tab-size: $arguments;
+}
+
+@mixin table-baseline($arguments...) {
+  -o-table-baseline: $arguments;
+  table-baseline: $arguments;
+}
+
+@mixin background-inline-policy($arguments...) {
+  -moz-background-inline-policy: $arguments;
+  background-inline-policy: $arguments;
+}
+
+@mixin binding($arguments...) {
+  -moz-binding: $arguments;
+  binding: $arguments;
+}
+
+@mixin border-bottom-colors($arguments...) {
+  -moz-border-bottom-colors: $arguments;
+  border-bottom-colors: $arguments;
+}
+
+@mixin border-left-colors($arguments...) {
+  -moz-border-left-colors: $arguments;
+  border-left-colors: $arguments;
+}
+
+@mixin border-right-colors($arguments...) {
+  -moz-border-right-colors: $arguments;
+  border-right-colors: $arguments;
+}
+
+@mixin border-top-colors($arguments...) {
+  -moz-border-top-colors: $arguments;
+  border-top-colors: $arguments;
+}
+
+@mixin column-fill($arguments...) {
+  -moz-column-fill: $arguments;
+  column-fill: $arguments;
+}
+
+@mixin float-edge($arguments...) {
+  -moz-float-edge: $arguments;
+  float-edge: $arguments;
+}
+
+@mixin font-language-override($arguments...) {
+  -moz-font-language-override: $arguments;
+  font-language-override: $arguments;
+}
+
+@mixin force-broken-image-icon($arguments...) {
+  -moz-force-broken-image-icon: $arguments;
+  force-broken-image-icon: $arguments;
+}
+
+@mixin hyphens($arguments...) {
+  -moz-hyphens: $arguments;
+  -ms-hyphens: $arguments;
+  hyphens: $arguments;
+}
+
+@mixin image-region($arguments...) {
+  -moz-image-region: $arguments;
+  image-region: $arguments;
+}
+
+@mixin orient($arguments...) {
+  -moz-orient: $arguments;
+  orient: $arguments;
+}
+
+@mixin outline-radius($arguments...) {
+  -moz-outline-radius: $arguments;
+  outline-radius: $arguments;
+}
+
+@mixin outline-radius-bottomleft($arguments...) {
+  -moz-outline-radius-bottomleft: $arguments;
+  outline-radius-bottomleft: $arguments;
+}
+
+@mixin outline-radius-bottomright($arguments...) {
+  -moz-outline-radius-bottomright: $arguments;
+  outline-radius-bottomright: $arguments;
+}
+
+@mixin outline-radius-topleft($arguments...) {
+  -moz-outline-radius-topleft: $arguments;
+  outline-radius-topleft: $arguments;
+}
+
+@mixin outline-radius-topright($arguments...) {
+  -moz-outline-radius-topright: $arguments;
+  outline-radius-topright: $arguments;
+}
+
+@mixin script-level($arguments...) {
+  -moz-script-level: $arguments;
+  script-level: $arguments;
+}
+
+@mixin script-min-size($arguments...) {
+  -moz-script-min-size: $arguments;
+  script-min-size: $arguments;
+}
+
+@mixin script-size-multiplier($arguments...) {
+  -moz-script-size-multiplier: $arguments;
+  script-size-multiplier: $arguments;
+}
+
+@mixin stack-sizing($arguments...) {
+  -moz-stack-sizing: $arguments;
+  stack-sizing: $arguments;
+}
+
+@mixin text-blink($arguments...) {
+  -moz-text-blink: $arguments;
+  text-blink: $arguments;
+}
+
+@mixin text-size-adjust($arguments...) {
+  -moz-text-size-adjust: $arguments;
+  text-size-adjust: $arguments;
+}
+
+@mixin user-focus($arguments...) {
+  -moz-user-focus: $arguments;
+  user-focus: $arguments;
+}
+
+@mixin user-input($arguments...) {
+  -moz-user-input: $arguments;
+  user-input: $arguments;
+}
+
+@mixin window-shadow($arguments...) {
+  -moz-window-shadow: $arguments;
+  window-shadow: $arguments;
+}
+
+@mixin accelerator($arguments...) {
+  -ms-accelerator: $arguments;
+  accelerator: $arguments;
+}
+
+@mixin background-position-x($arguments...) {
+  -ms-background-position-x: $arguments;
+  background-position-x: $arguments;
+}
+
+@mixin background-position-y($arguments...) {
+  -ms-background-position-y: $arguments;
+  background-position-y: $arguments;
+}
+
+@mixin behavior($arguments...) {
+  -ms-behavior: $arguments;
+  behavior: $arguments;
+}
+
+@mixin block-progression($arguments...) {
+  -ms-block-progression: $arguments;
+  block-progression: $arguments;
+}
+
+@mixin content-zoom-chaining($arguments...) {
+  -ms-content-zoom-chaining: $arguments;
+  content-zoom-chaining: $arguments;
+}
+
+@mixin content-zoom-limit($arguments...) {
+  -ms-content-zoom-limit: $arguments;
+  content-zoom-limit: $arguments;
+}
+
+@mixin content-zoom-limit-max($arguments...) {
+  -ms-content-zoom-limit-max: $arguments;
+  content-zoom-limit-max: $arguments;
+}
+
+@mixin content-zoom-limit-min($arguments...) {
+  -ms-content-zoom-limit-min: $arguments;
+  content-zoom-limit-min: $arguments;
+}
+
+@mixin content-zoom-snap($arguments...) {
+  -ms-content-zoom-snap: $arguments;
+  content-zoom-snap: $arguments;
+}
+
+@mixin content-zoom-snap-points($arguments...) {
+  -ms-content-zoom-snap-points: $arguments;
+  content-zoom-snap-points: $arguments;
+}
+
+@mixin content-zoom-snap-type($arguments...) {
+  -ms-content-zoom-snap-type: $arguments;
+  content-zoom-snap-type: $arguments;
+}
+
+@mixin content-zooming($arguments...) {
+  -ms-content-zooming: $arguments;
+  content-zooming: $arguments;
+}
+
+@mixin flex-align($arguments...) {
+  -ms-flex-align: $arguments;
+  flex-align: $arguments;
+}
+
+@mixin flex-order($arguments...) {
+  -ms-flex-order: $arguments;
+  flex-order: $arguments;
+}
+
+@mixin flex-pack($arguments...) {
+  -ms-flex-pack: $arguments;
+  flex-pack: $arguments;
+}
+
+@mixin grid-column-align($arguments...) {
+  -ms-grid-column-align: $arguments;
+  grid-column-align: $arguments;
+}
+
+@mixin grid-column-span($arguments...) {
+  -ms-grid-column-span: $arguments;
+  grid-column-span: $arguments;
+}
+
+@mixin grid-columns($arguments...) {
+  -ms-grid-columns: $arguments;
+  grid-columns: $arguments;
+}
+
+@mixin grid-row-align($arguments...) {
+  -ms-grid-row-align: $arguments;
+  grid-row-align: $arguments;
+}
+
+@mixin grid-row-span($arguments...) {
+  -ms-grid-row-span: $arguments;
+  grid-row-span: $arguments;
+}
+
+@mixin grid-rows($arguments...) {
+  -ms-grid-rows: $arguments;
+  grid-rows: $arguments;
+}
+
+@mixin high-contrast-adjust($arguments...) {
+  -ms-high-contrast-adjust: $arguments;
+  high-contrast-adjust: $arguments;
+}
+
+@mixin hyphenate-limit-chars($arguments...) {
+  -ms-hyphenate-limit-chars: $arguments;
+  hyphenate-limit-chars: $arguments;
+}
+
+@mixin hyphenate-limit-zone($arguments...) {
+  -ms-hyphenate-limit-zone: $arguments;
+  hyphenate-limit-zone: $arguments;
+}
+
+@mixin ime-mode($arguments...) {
+  -ms-ime-mode: $arguments;
+  ime-mode: $arguments;
+}
+
+@mixin interpolation-mode($arguments...) {
+  -ms-interpolation-mode: $arguments;
+  interpolation-mode: $arguments;
+}
+
+@mixin layout-flow($arguments...) {
+  -ms-layout-flow: $arguments;
+  layout-flow: $arguments;
+}
+
+@mixin layout-grid($arguments...) {
+  -ms-layout-grid: $arguments;
+  layout-grid: $arguments;
+}
+
+@mixin layout-grid-char($arguments...) {
+  -ms-layout-grid-char: $arguments;
+  layout-grid-char: $arguments;
+}
+
+@mixin layout-grid-line($arguments...) {
+  -ms-layout-grid-line: $arguments;
+  layout-grid-line: $arguments;
+}
+
+@mixin layout-grid-mode($arguments...) {
+  -ms-layout-grid-mode: $arguments;
+  layout-grid-mode: $arguments;
+}
+
+@mixin layout-grid-type($arguments...) {
+  -ms-layout-grid-type: $arguments;
+  layout-grid-type: $arguments;
+}
+
+@mixin overflow-style($arguments...) {
+  -ms-overflow-style: $arguments;
+  overflow-style: $arguments;
+}
+
+@mixin overflow-x($arguments...) {
+  -ms-overflow-x: $arguments;
+  overflow-x: $arguments;
+}
+
+@mixin overflow-y($arguments...) {
+  -ms-overflow-y: $arguments;
+  overflow-y: $arguments;
+}
+
+@mixin progress-appearance($arguments...) {
+  -ms-progress-appearance: $arguments;
+  progress-appearance: $arguments;
+}
+
+@mixin scroll-chaining($arguments...) {
+  -ms-scroll-chaining: $arguments;
+  scroll-chaining: $arguments;
+}
+
+@mixin scroll-limit($arguments...) {
+  -ms-scroll-limit: $arguments;
+  scroll-limit: $arguments;
+}
+
+@mixin scroll-limit-x-max($arguments...) {
+  -ms-scroll-limit-x-max: $arguments;
+  scroll-limit-x-max: $arguments;
+}
+
+@mixin scroll-limit-x-min($arguments...) {
+  -ms-scroll-limit-x-min: $arguments;
+  scroll-limit-x-min: $arguments;
+}
+
+@mixin scroll-limit-y-max($arguments...) {
+  -ms-scroll-limit-y-max: $arguments;
+  scroll-limit-y-max: $arguments;
+}
+
+@mixin scroll-limit-y-min($arguments...) {
+  -ms-scroll-limit-y-min: $arguments;
+  scroll-limit-y-min: $arguments;
+}
+
+@mixin scroll-rails($arguments...) {
+  -ms-scroll-rails: $arguments;
+  scroll-rails: $arguments;
+}
+
+@mixin scroll-snap-points-x($arguments...) {
+  -ms-scroll-snap-points-x: $arguments;
+  scroll-snap-points-x: $arguments;
+}
+
+@mixin scroll-snap-points-y($arguments...) {
+  -ms-scroll-snap-points-y: $arguments;
+  scroll-snap-points-y: $arguments;
+}
+
+@mixin scroll-snap-type($arguments...) {
+  -ms-scroll-snap-type: $arguments;
+  scroll-snap-type: $arguments;
+}
+
+@mixin scroll-snap-x($arguments...) {
+  -ms-scroll-snap-x: $arguments;
+  scroll-snap-x: $arguments;
+}
+
+@mixin scroll-snap-y($arguments...) {
+  -ms-scroll-snap-y: $arguments;
+  scroll-snap-y: $arguments;
+}
+
+@mixin scroll-translation($arguments...) {
+  -ms-scroll-translation: $arguments;
+  scroll-translation: $arguments;
+}
+
+@mixin scrollbar-arrow-color($arguments...) {
+  -ms-scrollbar-arrow-color: $arguments;
+  scrollbar-arrow-color: $arguments;
+}
+
+@mixin scrollbar-base-color($arguments...) {
+  -ms-scrollbar-base-color: $arguments;
+  scrollbar-base-color: $arguments;
+}
+
+@mixin scrollbar-darkshadow-color($arguments...) {
+  -ms-scrollbar-darkshadow-color: $arguments;
+  scrollbar-darkshadow-color: $arguments;
+}
+
+@mixin scrollbar-face-color($arguments...) {
+  -ms-scrollbar-face-color: $arguments;
+  scrollbar-face-color: $arguments;
+}
+
+@mixin scrollbar-highlight-color($arguments...) {
+  -ms-scrollbar-highlight-color: $arguments;
+  scrollbar-highlight-color: $arguments;
+}
+
+@mixin scrollbar-shadow-color($arguments...) {
+  -ms-scrollbar-shadow-color: $arguments;
+  scrollbar-shadow-color: $arguments;
+}
+
+@mixin scrollbar-track-color($arguments...) {
+  -ms-scrollbar-track-color: $arguments;
+  scrollbar-track-color: $arguments;
+}
+
+@mixin text-autospace($arguments...) {
+  -ms-text-autospace: $arguments;
+  text-autospace: $arguments;
+}
+
+@mixin text-kashida-space($arguments...) {
+  -ms-text-kashida-space: $arguments;
+  text-kashida-space: $arguments;
+}
+
+@mixin text-overflow($arguments...) {
+  -ms-text-overflow: $arguments;
+  text-overflow: $arguments;
+}
+
+@mixin touch-action($arguments...) {
+  -ms-touch-action: $arguments;
+  touch-action: $arguments;
+}
+
+@mixin word-break($arguments...) {
+  -ms-word-break: $arguments;
+  word-break: $arguments;
+}
+
+@mixin word-wrap($arguments...) {
+  -ms-word-wrap: $arguments;
+  word-wrap: $arguments;
+}
+
+@mixin wrap-margin($arguments...) {
+  -ms-wrap-margin: $arguments;
+  wrap-margin: $arguments;
+}
+
+@mixin writing-mode($arguments...) {
+  -ms-writing-mode: $arguments;
+  writing-mode: $arguments;
+}
+
+@mixin zoom($arguments...) {
+  -ms-zoom: $arguments;
+  zoom: $arguments;
+}
+

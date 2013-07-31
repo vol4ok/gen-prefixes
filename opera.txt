@@ -1,0 +1,17 @@
+-o-border-image
+-o-device-pixel-ratio
+-o-focus-opacity
+-o-link
+-o-link-source
+-o-mini-fold
+-o-object-fit
+-o-object-position
+-o-tab-size
+-o-table-baseline
+-o-transform
+-o-transform-origin
+-o-transition
+-o-transition-delay
+-o-transition-duration
+-o-transition-property
+-o-transition-timing-function
