@@ -47,7 +47,7 @@ fs.writeFileSync("vendor.scss", output, "utf-8")
 output = ""
 
 for key, val of prop
-  s =  ".#{key}() {\n"
+  s =  ".#{key}(@arguments) {\n"
   for prefix in val
     s += "  #{prefix}#{key}: @arguments;\n"
   s += "  #{key}: @arguments;\n"
