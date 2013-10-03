@@ -42,7 +42,31 @@ for key, val of prop
   s += "}\n\n"
   output += s
 
+fs.writeFileSync("vendor.scss", output, "utf-8")
+
+output = ""
+
+for key, val of prop
+  s =  ".#{key}() {\n"
+  for prefix in val
+    s += "  #{prefix}#{key}: @arguments;\n"
+  s += "  #{key}: @arguments;\n"
+  s += "}\n\n"
+  output += s
+
 console.log output
 
-fs.writeFileSync("vendor.scss", output, "utf-8")
+fs.writeFileSync("vendor.less", output, "utf-8")
+
+output = ""
+
+for key, val of prop
+  s =  "#{key}()\n"
+  for prefix in val
+    s += "  #{prefix}#{key}: @arguments\n"
+  s += "  #{key}: @arguments\n"
+  s += "\n\n"
+  output += s
+
+fs.writeFileSync("vendor.styl", output, "utf-8")
 
